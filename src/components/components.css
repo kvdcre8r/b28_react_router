@@ -6,10 +6,10 @@
 body {
   background-color: rgb(0, 98, 173);
 
-  div {
+  /* div {
     height: 100vh;
     width: 100vw;
-  }
+  } */
 }
 
 #container {
@@ -28,7 +28,7 @@ body {
   border: 5px solid rgb(64, 200, 224);
 }
 
-.navbar {
+.navbar, .footer {
   background-color: rgb(64, 200, 224);
   padding: 2em;
   justify-content: space-evenly;
@@ -40,9 +40,17 @@ body {
 
 .main-section>div {
   width: 100%;
+  height: 700px;
   display: flex;
+  margin-top: -200px;
   align-items: center;
   justify-content: center;
+}
+
+
+.purple {
+  background-color: purple;
+  color: white;
 }
 
 .blue {
@@ -50,12 +58,22 @@ body {
   color: white;
 }
 
-.red {
-  background-color: red;
+.green {
+  background-color: green;
   color: white;
 }
 
 .yellow {
   background-color: yellow;
   color: white;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.red {
+  color: red;
+
 }

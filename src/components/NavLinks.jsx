@@ -1,20 +1,35 @@
-export function Red() {
+export function Purple() {
     return (
-        <div className="red"></div>
+        <div className="purple"></div>
     )
 }
 
 export function Blue() {
     return (
-        <div className="blue"></div>
+        <div></div>
     )
 }
 
-export function Home() {
+export function Green() {
     return (
-        <div className="home">
-            <h1>React Router</h1>
-            <p>is an efficient and organized method <br /> to access components in react </p>
-        </div>
+        <div className="green"></div>
+    )
+}
+
+export function Yellow() {
+    return (
+        <div className="yellow"></div>
+    )
+}
+
+export function Orange() {
+    return (
+        <div className="orange"></div>
+    )
+}
+
+export function Red() {
+    return (
+        <div className="red"></div>
     )
 }

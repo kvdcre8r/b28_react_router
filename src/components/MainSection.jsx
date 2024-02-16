@@ -1,16 +1,20 @@
 import { Routes, Route } from "react-router-dom"
-import { Home, Blue, Red, Yellow } from "./NavLinks"
+import { Red, Orange, Yellow, Green, Blue, Purple } from "./NavLinks"
+import { Home } from "./home.jsx"
 import './components.css'
 
 export default function MainSection() {
     return (
-        <div class="main-section">
+        <div className="main-section">
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/blue' element={<Blue />} />
                 <Route path='/red' element={<Red />} />
+                <Route path='/orange' element={<Orange />} />
                 <Route path='/yellow' element={<Yellow />} />
-           </Routes>
+                <Route path='/green' element={<Green />} />
+                <Route path='/blue' element={<Blue />} />
+                <Route path='/purple' element={<Purple />} />
+            </Routes>
         </div>
     )
 }
