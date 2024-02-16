@@ -28,10 +28,19 @@ body {
   border: 5px solid rgb(64, 200, 224);
 }
 
-.navbar, .footer {
+.navbar,
+.footer {
   background-color: rgb(64, 200, 224);
   padding: 2em;
   justify-content: space-evenly;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 2em;
+align-items: center;
+  margin: 0;
 }
 
 .main-section {
@@ -75,5 +84,4 @@ body {
 
 .red {
   color: red;
-
 }

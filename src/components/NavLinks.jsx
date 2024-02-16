@@ -28,8 +28,4 @@ export function Orange() {
     )
 }
 
-export function Red() {
-    return (
-        <div className="red"></div>
-    )
-}
+

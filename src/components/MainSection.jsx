@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom"
-import { Red, Orange, Yellow, Green, Blue, Purple } from "./NavLinks"
+import { Orange, Yellow, Green, Blue, Purple } from "./NavLinks"
+import { Red } from "./color_links/red.jsx"
 import { Home } from "./home.jsx"
 import './components.css'
 
